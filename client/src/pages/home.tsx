@@ -4,7 +4,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { GlossyCard } from "@/components/ui/glossy-card";
 import { SkillBar } from "@/components/ui/skill-bar";
 import { motion } from "framer-motion";
-import { Shield, Lock, Terminal, Globe, Mail, Github, Linkedin, ExternalLink, ChevronDown } from "lucide-react";
+import { Shield, Lock, Terminal, Globe, Mail, Github, Linkedin, ExternalLink, ChevronDown, FileText } from "lucide-react";
 import heroBg from "@assets/generated_images/dark_glossy_abstract_cybersecurity_background.png";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
@@ -120,6 +120,14 @@ export default function Home() {
                 size="lg" 
                 variant="outline" 
                 className="border-primary/50 text-primary hover:bg-primary/10"
+                onClick={() => window.open('/resume.pdf', '_blank')}
+              >
+                <FileText className="mr-2 h-4 w-4" /> RESUME
+              </Button>
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="border-white/10 text-foreground hover:bg-white/5"
                 onClick={() => scrollToSection('contact')}
               >
                 CONTACT ME

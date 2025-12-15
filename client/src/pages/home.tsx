@@ -158,18 +158,18 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  I am a dedicated Cyber Security enthusiast with a passion for uncovering vulnerabilities and securing digital infrastructures. Currently finishing my degree in Computer Science with a specialization in Information Security.
+                  Certified cybersecurity professional with hands-on expertise in Vulnerability Assessment and Penetration Testing (VAPT). I specialize in host-based auditing, web application security testing, and offensive security methodologies.
                 </p>
                 <p>
-                  My journey began with a curiosity about how systems break, which evolved into a mission to learn how to fix and protect them. I actively participate in CTF competitions and spend my free time analyzing new malware trends.
+                  With a Top 1% ranking on TryHackMe and extensive experience in VAPT for startups, I leverage technical skills to identify and remediate security vulnerabilities. I am passionate about research and developing custom security tools.
                 </p>
                 
                 <div className="pt-4">
                   <h3 className="text-foreground font-semibold mb-3">Education</h3>
                   <div className="border-l-2 border-primary/30 pl-4">
-                    <h4 className="text-lg text-white">B.S. Computer Science</h4>
-                    <p className="text-sm">Tech University • 2021 - Present</p>
-                    <p className="text-xs mt-1 text-primary">Focus: Network Security & Cryptography</p>
+                    <h4 className="text-lg text-white">B.Sc Digital and Cyber Forensics</h4>
+                    <p className="text-sm">Rathinam College of Arts and Science • 2026</p>
+                    <p className="text-xs mt-1 text-primary">Focus: VAPT & Digital Forensics</p>
                   </div>
                 </div>
               </div>
@@ -211,14 +211,14 @@ export default function Home() {
               <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-6">
                 <Terminal className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Network Packet Sniffer</h3>
+              <h3 className="text-xl font-bold mb-2">Recon Automation Tool</h3>
               <p className="text-muted-foreground text-sm mb-4">
-                A Python-based tool built with Scapy to capture and analyze network traffic in real-time. Identifies HTTP headers and flags suspicious packets.
+                Python-based automation tool for pentest reconnaissance. Automates host scanning, directory enumeration, and subdomain discovery to reduce manual testing time by 60%.
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">Python</span>
-                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">Scapy</span>
-                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">Wireshark</span>
+                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">Automation</span>
+                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">Recon</span>
               </div>
               <a href="#" className="inline-flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors">
                 View on GitHub <ExternalLink className="w-3 h-3" />
@@ -230,14 +230,14 @@ export default function Home() {
               <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-6">
                 <Lock className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Port Scanner V2</h3>
+              <h3 className="text-xl font-bold mb-2">Chess File Encryption</h3>
               <p className="text-muted-foreground text-sm mb-4">
-                Multi-threaded port scanner that identifies open ports and banner grabs service versions. Optimized for speed and low footprint.
+                Custom encryption system using chess move sequences to generate keys. Implements SHA-256/HKDF to harden sequences against guessing attacks.
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
+                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">Cryptography</span>
                 <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">Python</span>
-                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">Socket</span>
-                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">Threading</span>
+                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">SHA-256</span>
               </div>
               <a href="#" className="inline-flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors">
                 View on GitHub <ExternalLink className="w-3 h-3" />
@@ -249,17 +249,17 @@ export default function Home() {
               <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-6">
                 <Shield className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Encrypted Chat</h3>
+              <h3 className="text-xl font-bold mb-2">VAPT & CTF Portfolio</h3>
               <p className="text-muted-foreground text-sm mb-4">
-                End-to-end encrypted messaging application using AES-256. Ensures privacy and data integrity between clients.
+                Top 1% ranking on TryHackMe with 250+ completed challenges. Specialized in web application exploits, network penetration, and OWASP Top 10 vulnerabilities.
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
-                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">Node.js</span>
-                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">React</span>
-                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">CryptoJS</span>
+                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">TryHackMe</span>
+                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">HackTheBox</span>
+                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">OWASP</span>
               </div>
-              <a href="#" className="inline-flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors">
-                View on GitHub <ExternalLink className="w-3 h-3" />
+              <a href="https://tryhackme.com/p/jewell" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors">
+                View Profile <ExternalLink className="w-3 h-3" />
               </a>
             </GlossyCard>
           </div>
@@ -278,40 +278,35 @@ export default function Home() {
             {/* Timeline Item */}
             <div className="relative md:flex gap-8 group">
               <div className="hidden md:block w-32 text-right pt-1 text-muted-foreground font-mono text-sm">
-                Jun 2024 - Present
+                12 Months
               </div>
               
               <div className="absolute left-[-37px] md:left-auto md:right-1/2 md:mr-[-6px] mt-1.5 w-4 h-4 rounded-full bg-background border-2 border-primary z-10 group-hover:bg-primary transition-colors shadow-[0_0_10px_var(--color-primary)]" />
               
               <div className="md:w-1/2 md:ml-auto">
-                <div className="md:hidden text-primary font-mono text-sm mb-1">Jun 2024 - Present</div>
-                <h3 className="text-xl font-bold text-white">Security Intern</h3>
-                <h4 className="text-primary mb-3">CyberDefense Corp</h4>
+                <div className="md:hidden text-primary font-mono text-sm mb-1">12 Months</div>
+                <h3 className="text-xl font-bold text-white">Cybersecurity Intern & VAPT Consultant</h3>
+                <h4 className="text-primary mb-3">Raise Smart</h4>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                  Assisted the SOC team in monitoring SIEM alerts and triaging potential incidents. Conducted weekly vulnerability scans using Nessus and prepared reports for the IT team.
+                  Conducted VAPT audits for clients and startup companies. Identified security vulnerabilities, assessed risks, and provided remediation recommendations to improve overall security posture.
                 </p>
-                <ul className="text-sm text-muted-foreground/80 list-disc list-inside space-y-1">
-                  <li>Analyzed 500+ security logs daily</li>
-                  <li>Automated log parsing scripts in Python</li>
-                  <li>Participated in Red Team simulation exercises</li>
-                </ul>
               </div>
             </div>
             
             {/* Timeline Item 2 */}
             <div className="relative md:flex gap-8 group">
               <div className="hidden md:block w-32 text-right pt-1 text-muted-foreground font-mono text-sm">
-                Jan 2023 - May 2024
+                1 Month
               </div>
               
               <div className="absolute left-[-37px] md:left-auto md:right-1/2 md:mr-[-6px] mt-1.5 w-4 h-4 rounded-full bg-background border-2 border-muted-foreground z-10 group-hover:border-primary transition-colors" />
               
               <div className="md:w-1/2 md:ml-auto">
-                <div className="md:hidden text-muted-foreground font-mono text-sm mb-1">Jan 2023 - May 2024</div>
-                <h3 className="text-xl font-bold text-white">IT Support Volunteer</h3>
-                <h4 className="text-primary mb-3">Local University Lab</h4>
+                <div className="md:hidden text-muted-foreground font-mono text-sm mb-1">1 Month</div>
+                <h3 className="text-xl font-bold text-white">Cybersecurity Intern</h3>
+                <h4 className="text-primary mb-3">Ozone CyberSecurity</h4>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Managed lab computers, ensuring latest security patches were installed. Helped students troubleshoot network connectivity issues and malware infections.
+                  Gained hands-on experience in network security assessment and OWASP Top 10 vulnerability testing. Participated in vulnerability assessment projects under senior professionals.
                 </p>
               </div>
             </div>
@@ -368,15 +363,29 @@ export default function Home() {
                   <li className="flex items-start gap-3">
                     <div className="mt-1 w-2 h-2 rounded-full bg-primary" />
                     <div>
-                      <div className="font-medium text-white">CompTIA Security+</div>
-                      <div className="text-xs text-muted-foreground">In Progress</div>
+                      <div className="font-medium text-white">eLearnSecurity Junior Penetration Tester (eJPT)</div>
+                      <div className="text-xs text-muted-foreground">INE</div>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
-                    <div className="mt-1 w-2 h-2 rounded-full bg-green-500" />
+                    <div className="mt-1 w-2 h-2 rounded-full bg-primary" />
                     <div>
-                      <div className="font-medium text-white">Google Cybersecurity Certificate</div>
-                      <div className="text-xs text-muted-foreground">Completed 2023</div>
+                      <div className="font-medium text-white">Ethical Hacking Associate</div>
+                      <div className="text-xs text-muted-foreground">RedTeam Hackers Academy</div>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="mt-1 w-2 h-2 rounded-full bg-primary" />
+                    <div>
+                      <div className="font-medium text-white">Junior Penetration Tester</div>
+                      <div className="text-xs text-muted-foreground">TryHackMe</div>
+                    </div>
+                  </li>
+                   <li className="flex items-start gap-3">
+                    <div className="mt-1 w-2 h-2 rounded-full bg-primary" />
+                    <div>
+                      <div className="font-medium text-white">Practical WebApp Security & Testing</div>
+                      <div className="text-xs text-muted-foreground">The Taggart Institute</div>
                     </div>
                   </li>
                 </ul>

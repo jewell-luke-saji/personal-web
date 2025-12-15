@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { ResumePreview } from "@/components/ui/resume-preview";
 import { GlossyCard } from "@/components/ui/glossy-card";
 import { SkillBar } from "@/components/ui/skill-bar";
 import { motion } from "framer-motion";
@@ -116,14 +117,7 @@ export default function Home() {
               >
                 VIEW PROJECTS
               </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-primary/50 text-primary hover:bg-primary/10"
-                onClick={() => window.open('/resume.pdf', '_blank')}
-              >
-                <FileText className="mr-2 h-4 w-4" /> RESUME
-              </Button>
+              <ResumePreview />
               <Button 
                 size="lg" 
                 variant="outline" 

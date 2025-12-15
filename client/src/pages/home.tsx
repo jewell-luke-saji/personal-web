@@ -329,10 +329,19 @@ export default function Home() {
               <h3 className="text-lg font-bold mb-6 flex items-center gap-2">
                 <Terminal className="w-5 h-5 text-primary" /> Technical Skills
               </h3>
-              <SkillBar name="Python Scripting" percentage={90} delay={0.1} />
-              <SkillBar name="Network Security" percentage={85} delay={0.2} />
-              <SkillBar name="Linux (Kali/Ubuntu)" percentage={80} delay={0.3} />
-              <SkillBar name="Web App Security" percentage={70} delay={0.4} />
+              <ul className="space-y-3">
+                {[
+                  "Python Scripting",
+                  "Network Security", 
+                  "Linux (Kali/Ubuntu)",
+                  "Web App Security"
+                ].map((skill, i) => (
+                  <li key={i} className="flex items-center gap-3 text-sm">
+                    <div className="w-1.5 h-1.5 rounded-full bg-primary shadow-[0_0_5px_var(--color-primary)]" />
+                    {skill}
+                  </li>
+                ))}
+              </ul>
             </GlossyCard>
 
             <div className="space-y-6">
@@ -396,16 +405,6 @@ export default function Home() {
                   <div>
                     <div className="text-sm text-muted-foreground">Email</div>
                     <div className="font-mono text-white">jewellsaji@gmail.com</div>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center border border-primary/20">
-                    <Github className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <div className="text-sm text-muted-foreground">GitHub</div>
-                    <a href="#" className="font-mono text-white hover:text-primary transition-colors">github.com/jewell-saji</a>
                   </div>
                 </div>
 

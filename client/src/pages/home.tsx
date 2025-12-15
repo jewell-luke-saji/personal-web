@@ -102,7 +102,7 @@ export default function Home() {
               <span className="text-primary font-mono text-xs tracking-widest uppercase">System Online</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
-              ALEX <span className="text-primary text-glow">RIVER</span>
+              JEWELL <span className="text-primary text-glow">LUKE SAJI</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto font-light">
               Securing the Digital Frontier | Aspiring <span className="text-foreground font-medium">Cyber Security Analyst</span>
@@ -395,7 +395,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">Email</div>
-                    <div className="font-mono text-white">alex.river@example.com</div>
+                    <div className="font-mono text-white">jewell.saji@example.com</div>
                   </div>
                 </div>
 
@@ -405,7 +405,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">GitHub</div>
-                    <a href="#" className="font-mono text-white hover:text-primary transition-colors">github.com/alexriver</a>
+                    <a href="#" className="font-mono text-white hover:text-primary transition-colors">github.com/jewell-saji</a>
                   </div>
                 </div>
 
@@ -415,7 +415,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">LinkedIn</div>
-                    <a href="#" className="font-mono text-white hover:text-primary transition-colors">linkedin.com/in/alexriver</a>
+                    <a href="#" className="font-mono text-white hover:text-primary transition-colors">linkedin.com/in/jewell-saji</a>
                   </div>
                 </div>
               </div>
@@ -480,7 +480,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 border-t border-white/5 bg-background text-center text-sm text-muted-foreground">
         <div className="container mx-auto px-6">
-          <p>© 2024 Alex River. All systems secure.</p>
+          <p>© 2024 Jewell Luke Saji. All systems secure.</p>
         </div>
       </footer>
     </div>

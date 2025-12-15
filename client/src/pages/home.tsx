@@ -395,7 +395,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">Email</div>
-                    <div className="font-mono text-white">jewell.saji@example.com</div>
+                    <div className="font-mono text-white">jewellsaji@gmail.com</div>
                   </div>
                 </div>
 
@@ -415,7 +415,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">LinkedIn</div>
-                    <a href="#" className="font-mono text-white hover:text-primary transition-colors">linkedin.com/in/jewell-saji</a>
+                    <a href="https://www.linkedin.com/in/jewell-luke-saji/" target="_blank" rel="noopener noreferrer" className="font-mono text-white hover:text-primary transition-colors">linkedin.com/in/jewell-luke-saji</a>
                   </div>
                 </div>
               </div>
@@ -430,7 +430,7 @@ export default function Home() {
                         <FormItem>
                           <FormLabel>Name</FormLabel>
                           <FormControl>
-                            <Input placeholder="John Doe" {...field} className="bg-background/50 border-white/10 focus:border-primary/50" />
+                            <Input placeholder="Jewell Luke Saji" {...field} className="bg-background/50 border-white/10 focus:border-primary/50" />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -443,7 +443,7 @@ export default function Home() {
                         <FormItem>
                           <FormLabel>Email</FormLabel>
                           <FormControl>
-                            <Input placeholder="john@example.com" {...field} className="bg-background/50 border-white/10 focus:border-primary/50" />
+                            <Input placeholder="jewellsaji@gmail.com" {...field} className="bg-background/50 border-white/10 focus:border-primary/50" />
                           </FormControl>
                           <FormMessage />
                         </FormItem>

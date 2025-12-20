@@ -331,7 +331,9 @@ export default function Home() {
                   "Python Scripting",
                   "Network Security", 
                   "Linux (Kali/Ubuntu)",
-                  "Web App Security"
+                  "Web App Security",
+                  "VAPT",
+                  "Automation"
                 ].map((skill, i) => (
                   <li key={i} className="flex items-center gap-3 text-sm">
                     <div className="w-1.5 h-1.5 rounded-full bg-primary shadow-[0_0_5px_var(--color-primary)]" />

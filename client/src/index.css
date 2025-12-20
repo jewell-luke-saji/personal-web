@@ -51,33 +51,33 @@
 }
 
 :root {
-  /* Default to Dark Mode since it's a cyber security portfolio */
-  --background: 222 47% 11%;
+  /* Black Glossy Glassy Theme */
+  --background: 0 0% 4%;
   --foreground: 210 40% 98%;
 
-  --card: 222 47% 11%; /* Keep card bg transparent/glassy usually, but base color */
+  --card: 0 0% 6%;
   --card-foreground: 210 40% 98%;
 
-  --popover: 222 47% 11%;
+  --popover: 0 0% 6%;
   --popover-foreground: 210 40% 98%;
 
   --primary: 190 90% 50%; /* Cyan Neon */
-  --primary-foreground: 222 47% 11%;
+  --primary-foreground: 0 0% 4%;
 
-  --secondary: 217 33% 17%;
+  --secondary: 0 0% 12%;
   --secondary-foreground: 210 40% 98%;
 
-  --muted: 217 33% 17%;
+  --muted: 0 0% 12%;
   --muted-foreground: 215 20% 65%;
 
   --accent: 190 90% 50%;
-  --accent-foreground: 222 47% 11%;
+  --accent-foreground: 0 0% 4%;
 
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 210 40% 98%;
 
-  --border: 217 33% 20%;
-  --input: 217 33% 17%;
+  --border: 0 0% 15%;
+  --input: 0 0% 12%;
   --ring: 190 90% 50%;
 
   --chart-1: 190 90% 50%;
@@ -102,18 +102,18 @@
 
 @layer utilities {
   .glass {
-    @apply bg-background/60 backdrop-blur-md border border-white/10 shadow-xl;
+    @apply bg-white/5 backdrop-blur-xl border border-white/15 shadow-2xl;
   }
   
   .glass-card {
-    @apply bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-primary/10 hover:bg-white/10;
+    @apply bg-white/8 backdrop-blur-lg border border-white/15 hover:border-primary/60 transition-all duration-300 shadow-2xl hover:shadow-primary/20 hover:bg-white/12 hover:backdrop-blur-xl;
   }
   
   .text-glow {
-    text-shadow: 0 0 20px hsla(var(--primary), 0.5);
+    text-shadow: 0 0 20px hsla(var(--primary), 0.6), 0 0 40px hsla(var(--primary), 0.3);
   }
   
   .border-glow {
-    box-shadow: 0 0 10px hsla(var(--primary), 0.3);
+    box-shadow: 0 0 15px hsla(var(--primary), 0.4), inset 0 0 15px hsla(var(--primary), 0.1);
   }
 }

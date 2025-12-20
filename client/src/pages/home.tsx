@@ -105,9 +105,9 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
               JEWELL <span className="text-primary text-glow">LUKE SAJI</span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto font-light">
+            {/*<p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto font-light">
               Securing the Digital Frontier | Aspiring <span className="text-foreground font-medium">Cyber Security Analyst</span>
-            </p>
+            </p> */}
             
             <div className="flex justify-center gap-4">
               <Button 
@@ -158,10 +158,10 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  Certified cybersecurity professional with hands-on expertise in Vulnerability Assessment and Penetration Testing (VAPT). I specialize in host-based auditing, web application security testing, and offensive security methodologies.
+                  Certified cybersecurity professional with hands-on expertise in Vulnerability Assessment and Penetration Testing (VAPT). I specialize in host-based auditing, web application security testing, and offensive security methodologies & Threat modeling.
                 </p>
                 <p>
-                  With a Top 1% ranking on TryHackMe and extensive experience in VAPT for startups, I leverage technical skills to identify and remediate security vulnerabilities. I am passionate about research and developing custom security tools.
+                  With a Top 1% ranking on TryHackMe , Hacker rank in HackTheBox and extensive experience in VAPT, I leverage technical skills to identify and remediate security vulnerabilities. I am passionate about research and understanding various security issues.
                 </p>
                 
                 <div className="pt-4">
@@ -169,7 +169,7 @@ export default function Home() {
                   <div className="border-l-2 border-primary/30 pl-4">
                     <h4 className="text-lg text-white">B.Sc Digital and Cyber Forensics</h4>
                     <p className="text-sm">Rathinam College of Arts and Science • 2026</p>
-                    <p className="text-xs mt-1 text-primary">Focus: VAPT & Digital Forensics</p>
+                    <p className="text-xs mt-1 text-primary">Focus: VAPT & Web-app security</p>
                   </div>
                 </div>
               </div>
@@ -260,6 +260,25 @@ export default function Home() {
               </div>
               <a href="https://tryhackme.com/p/jewell" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors">
                 View Profile <ExternalLink className="w-3 h-3" />
+              </a>
+            </GlossyCard>
+
+            {/* Project 4 */}
+            <GlossyCard delay={0.4}>
+              <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-6">
+                <Globe className="w-6 h-6 text-primary" />
+              </div>
+              <h3 className="text-xl font-bold mb-2">Web App CVE Scanning Automation</h3>
+              <p className="text-muted-foreground text-sm mb-4">
+                Automated vulnerability scanning workflow using n8n. Integrates multiple security tools via APIs to scan web applications for known CVEs, aggregate results, and generate comprehensive security reports.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-6">
+                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">n8n</span>
+                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">Automation</span>
+                <span className="text-xs px-2 py-1 rounded bg-secondary text-primary border border-primary/20">CVE</span>
+              </div>
+              <a href="#" className="inline-flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors">
+                View on GitHub <ExternalLink className="w-3 h-3" />
               </a>
             </GlossyCard>
           </div>

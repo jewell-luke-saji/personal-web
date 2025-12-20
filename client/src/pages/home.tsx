@@ -294,31 +294,12 @@ export default function Home() {
           </h2>
 
           <div className="max-w-3xl mx-auto relative border-l border-primary/20 ml-4 md:ml-0 space-y-12 pl-8 md:pl-0">
-            {/* Timeline Item */}
-            <div className="relative md:flex gap-8 group">
-              <div className="hidden md:block w-32 text-right pt-1 text-muted-foreground font-mono text-sm">
-                12 Months
-              </div>
-              
-              <div className="absolute left-[-37px] md:left-auto md:right-1/2 md:mr-[-6px] mt-1.5 w-4 h-4 rounded-full bg-background border-2 border-primary z-10 group-hover:bg-primary transition-colors shadow-[0_0_10px_var(--color-primary)]" />
-              
-              <div className="md:w-1/2 md:ml-auto">
-                <div className="md:hidden text-primary font-mono text-sm mb-1">12 Months</div>
-                <h3 className="text-xl font-bold text-white">Cybersecurity Intern & VAPT Consultant</h3>
-                <h4 className="text-primary mb-3">Raise Smart</h4>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                  Conducted VAPT audits for clients and startup companies. Identified security vulnerabilities, assessed risks, and provided remediation recommendations to improve overall security posture.
-                </p>
-              </div>
-            </div>
-            
-            {/* Timeline Item 2 */}
             <div className="relative md:flex gap-8 group">
               <div className="hidden md:block w-32 text-right pt-1 text-muted-foreground font-mono text-sm">
                 1 Month
               </div>
               
-              <div className="absolute left-[-37px] md:left-auto md:right-1/2 md:mr-[-6px] mt-1.5 w-4 h-4 rounded-full bg-background border-2 border-muted-foreground z-10 group-hover:border-primary transition-colors" />
+              <div className="absolute left-[-37px] md:left-auto md:right-1/2 md:mr-[-6px] mt-1.5 w-4 h-4 rounded-full bg-background border-2 border-primary z-10 group-hover:bg-primary transition-colors shadow-[0_0_10px_var(--color-primary)]" />
               
               <div className="md:w-1/2 md:ml-auto">
                 <div className="md:hidden text-muted-foreground font-mono text-sm mb-1">1 Month</div>

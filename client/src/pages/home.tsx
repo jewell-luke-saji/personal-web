@@ -490,7 +490,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 border-t border-white/5 bg-background text-center text-sm text-muted-foreground">
         <div className="container mx-auto px-6">
-          <p>© 2024 Jewell Luke Saji. All systems secure.</p>
+          <p>© 2025 Jewell Luke Saji. All systems secure.</p>
         </div>
       </footer>
     </div>
